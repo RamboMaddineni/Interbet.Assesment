@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div class="row" style="margin-top:20px">
+        <div class="col s4">
+            <div class="row">
+                <div class="input-field col s11">
+                    <input type="text" id="fromdate-input" class="firstdate">
+                    <label for="fromdate-input">From Date*</label>
+                </div>
+            </div>
+        </div>
+        <div class="col s4">
+            <div class="row">
+                <div class="input-field col s11">
+                    <input type="text" id="todate-input" class="todate">
+                    <label for="todate-input">To Date*</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s4">
+            <a class="waves-effect waves-light btn" id="search-details" onclick="getTransactionDetails()">Save</a>
+            <a class="waves-effect waves-light btn" id="search-details" onclick="clearTable()">Clear</a>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <table id="tbl-transaction-details" class="table responsive-table highlight">
+            <thead>
+                <tr>
+                    <th>UniqueInstanceID</th>
+                    <th>EffectiveDate</th>
+                    <th>TransactionCode</th>
+                    <th>TransactionAmount</th>
+                    <th>TransactionDate</th>
+                    <th>TransactionTime</th>
+                    <th>ChequeNumber</th>
+                    <th>DrCrIndicator</th>
+                    <th>BankName</th>
+                    <th>BranchCode</th>
+                    <th>ReferenceNumber</th>
+                    <th>AccountNumber</th>
+                    <th>Identifier</th>
+                </tr>
+            </thead>
+            <tbody id="transaction-details-body">
+            </tbody>
+        </table>
+    </div>

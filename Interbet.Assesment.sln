@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interbet.MVC.UI", "Interbet.MVC.UI\Interbet.MVC.UI.csproj", "{010B85CE-4DE3-4880-AAB2-6D0006ACDA07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interbet.Dapper.Repository", "Interbet.Dapper.Repository\Interbet.Dapper.Repository.csproj", "{EA3A1ECA-DDE2-47CC-B4B1-CB6BA543512B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interbet.Transactions.Forms", "Interbet.Transactions.Forms\Interbet.Transactions.Forms.csproj", "{0619BD43-7A58-4AC5-89C5-9ED5726DE1C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{010B85CE-4DE3-4880-AAB2-6D0006ACDA07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010B85CE-4DE3-4880-AAB2-6D0006ACDA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010B85CE-4DE3-4880-AAB2-6D0006ACDA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010B85CE-4DE3-4880-AAB2-6D0006ACDA07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA3A1ECA-DDE2-47CC-B4B1-CB6BA543512B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA3A1ECA-DDE2-47CC-B4B1-CB6BA543512B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA3A1ECA-DDE2-47CC-B4B1-CB6BA543512B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA3A1ECA-DDE2-47CC-B4B1-CB6BA543512B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0619BD43-7A58-4AC5-89C5-9ED5726DE1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0619BD43-7A58-4AC5-89C5-9ED5726DE1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0619BD43-7A58-4AC5-89C5-9ED5726DE1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0619BD43-7A58-4AC5-89C5-9ED5726DE1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C42D4BD1-4CC9-4A5C-9727-56DB8600FD0A}
+	EndGlobalSection
+EndGlobal
